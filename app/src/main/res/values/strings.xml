@@ -1,0 +1,313 @@
+<resources>
+    <string name="app_name">CrimsonFeed</string>
+
+    <!-- Navigation -->
+    <string name="nav_feeds">Feeds</string>
+    <string name="nav_saved">Saved</string>
+    <string name="nav_read">Read</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Home & Feeds -->
+    <string name="filter_all">All</string>
+    <string name="filter_all_feeds">All Feeds</string>
+    <string name="filter_all_lists">All Lists</string>
+    <string name="action_new_list">+ List</string>
+    <string name="action_add_feed">Add Feed</string>
+    <string name="action_import_opml">Import OPML</string>
+    <string name="action_export_opml">Export OPML</string>
+    <string name="action_search">Search</string>
+    <string name="action_sync">Sync Feeds</string>
+    <string name="action_refresh_feeds">Refresh Feeds</string>
+    <string name="action_translate_title">Translate Title</string>
+    <string name="action_mark_read">Mark Read</string>
+    <string name="action_mark_unread">Mark Unread</string>
+    <string name="action_save">Save</string>
+    <string name="action_unsave">Remove Saved</string>
+    <string name="action_share">Share</string>
+    <string name="action_open_browser">Open Original</string>
+    <string name="empty_feeds_title">No Feeds Added Yet</string>
+    <string name="empty_feeds_subtitle">Tap + on the bottom left to add an RSS/Atom/JSON feed URL, or import an OPML file.</string>
+    <string name="empty_unread_title">All Caught Up</string>
+    <string name="empty_unread_subtitle">Pull down or tap Refresh to check for new posts, or view your Read history.</string>
+
+    <!-- Add / Edit Feed & Custom Lists -->
+    <string name="dialog_add_feed_title">Add RSS Feed</string>
+    <string name="dialog_edit_feed_title">Edit Feed</string>
+    <string name="dialog_new_list_title">Create Custom List</string>
+    <string name="dialog_rename_list_title">Rename List</string>
+    <string name="hint_feed_url">https://example.com/feed.xml</string>
+    <string name="hint_feed_name">Feed Name</string>
+    <string name="hint_list_name">List Name</string>
+    <string name="label_custom_list_optional">Custom List (Optional)</string>
+    <string name="list_none">None</string>
+    <string name="list_action_rename">Rename List</string>
+    <string name="list_action_delete">Delete List</string>
+    <string name="feed_article_mode_title">Article AI Mode</string>
+    <string name="feed_mode_none">None</string>
+    <string name="feed_mode_translate">Translate</string>
+    <string name="feed_mode_summarize">Summarize</string>
+    <string name="feed_auto_translate_title">Auto-Translate Feed</string>
+    <string name="feed_auto_translate_subtitle">Automatically translate old &amp; new posts for this feed only</string>
+    <string name="feed_show_in_all_title">Show in All</string>
+    <string name="feed_show_in_all_subtitle">Show posts in All Feeds and All Lists</string>
+    <string name="feed_show_in_feeds_title">Show in Feeds</string>
+    <string name="feed_show_in_feeds_subtitle">Show posts in All Feeds</string>
+    <string name="feed_show_in_lists_title">Show in Lists</string>
+    <string name="feed_show_in_lists_subtitle">Show posts in Custom Lists and All Lists</string>
+    <string name="list_show_in_all_title">Show in All Lists</string>
+    <string name="list_show_in_all_subtitle">Show posts from this list in All Lists</string>
+    <string name="sync_mode_title">Refresh Mode</string>
+    <string name="title_sync_mode">Refresh Mode</string>
+    <string name="switch_auto_translate_titles">Auto-Translate Titles</string>
+    <string name="section_reader_mode">Reader AI Mode</string>
+    <string name="sync_mode_automatic">Automatic</string>
+    <string name="sync_mode_manual">Manual</string>
+    <string name="feed_action_toggle_auto_translate_on">Enable Auto-Translate</string>
+    <string name="feed_action_toggle_auto_translate_off">Disable Auto-Translate</string>
+    <string name="btn_add">Add</string>
+    <string name="btn_create">Create</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_clear">Clear</string>
+    <string name="btn_undo">Undo</string>
+    <string name="btn_close">Close</string>
+    <string name="feed_action_refresh_single">Refresh Feed</string>
+    <string name="feed_action_pin">Pin Feed (Next to All)</string>
+    <string name="feed_action_unpin">Unpin Feed</string>
+    <string name="list_action_pin">Pin List</string>
+    <string name="list_action_unpin">Unpin List</string>
+    <string name="empty_notifications_title">No Notifications</string>
+    <string name="empty_notifications_subtitle">New posts from feeds with notifications enabled will appear here.</string>
+    <string name="feed_action_disable_in_all">Disable from All Feeds</string>
+    <string name="feed_action_enable_in_all">Enable in All Feeds</string>
+    <string name="feed_action_disable_in_lists">Disable from All Lists</string>
+    <string name="feed_action_enable_in_lists">Enable in All Lists</string>
+    <string name="list_action_disable_in_all">Disable from All Lists</string>
+    <string name="list_action_enable_in_all">Enable in All Lists</string>
+    <string name="action_reorder_lists">Reorder Lists</string>
+    <string name="action_reorder_feeds">Reorder Pinned Feeds</string>
+    <string name="reorder_mode_done">Done</string>
+    <string name="reorder_mode_hint_lists">Swipe to scroll • Hold &amp; drag a list to move</string>
+    <string name="reorder_mode_hint_feeds">Swipe to scroll • Hold &amp; drag pinned feeds to move</string>
+    <string name="reorder_pinned_only_empty_hint">Pin at least 2 feeds to reorder them — unpinned feeds sort automatically by new posts</string>
+    <string name="feed_action_disable_sync">Disable Auto-Refresh</string>
+    <string name="feed_action_enable_sync">Enable Auto-Refresh</string>
+    <string name="list_action_refresh_manual">Refresh List</string>
+    <string name="list_action_disable_sync">Disable List Auto-Refresh</string>
+    <string name="list_action_enable_sync">Enable List Auto-Refresh</string>
+    <string name="sync_checking_feeds">Checking feeds…</string>
+    <string name="sync_feeds_completed">All feeds checked</string>
+    <string name="new_posts_pill_single">1 new post</string>
+    <string name="new_posts_pill_plural">%1$d new posts</string>
+    <string name="feed_action_rename">Edit Name, List &amp; Auto-Translate</string>
+    <string name="feed_action_mark_all_read">Mark All as Read</string>
+    <string name="feed_action_copy_url">Copy Feed URL</string>
+    <string name="feed_action_delete">Delete Feed</string>
+    <string name="copied_feed_url">Feed URL copied</string>
+
+    <!-- Search & Filters -->
+    <string name="search_placeholder">Search titles, articles, feeds…</string>
+    <string name="filter_unread">Unread</string>
+    <string name="filter_read">Read</string>
+    <string name="filter_saved">Saved</string>
+    <string name="empty_search_results">No matching posts found</string>
+
+    <!-- Saved & Read -->
+    <string name="empty_saved_title">No Saved Posts</string>
+    <string name="empty_saved_subtitle">Bookmark articles from your feed to read anytime.</string>
+    <string name="empty_read_title">No Read History</string>
+    <string name="empty_read_subtitle">Articles you read or mark as read appear here.</string>
+    <string name="action_clear_read">Clear Read</string>
+    <string name="dialog_clear_read_title">Clear Read History?</string>
+    <string name="dialog_clear_read_message">Are you sure you want to remove all read unsaved posts? You can undo within 5 seconds.</string>
+
+    <!-- Reader & AI -->
+    <string name="btn_summarize_article">Summarize (Gemini)</string>
+    <string name="btn_summarize_article_gemini">Summarize (Gemini)</string>
+    <string name="btn_summarize_article_ollama">Summarize (Ollama)</string>
+    <string name="btn_translate_article">Translate</string>
+    <string name="btn_retry">Retry</string>
+    <string name="action_telegram">Telegram Preview</string>
+    <string name="telegram_sheet_title">Telegram Channel Preview</string>
+    <string name="telegram_include_photo">Attach Article Photo</string>
+    <string name="telegram_regenerate">Rewrite</string>
+    <string name="telegram_send">Send</string>
+
+    <!-- Settings Hub & Sub-Pages -->
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_appearance_sub">%1$s</string>
+    <string name="settings_feeds_lists">Feeds &amp; Lists</string>
+    <string name="settings_feeds_lists_sub">%1$d lists • %2$d feeds</string>
+    <string name="settings_api_keys">API Keys</string>
+    <string name="settings_api_keys_sub">Ollama • Gemini • DeepL</string>
+    <string name="settings_translate_languages">Translate &amp; Summarize</string>
+    <string name="settings_translate_sub">%1$s • %2$s • %3$s</string>
+    <string name="settings_summarize">Summarize</string>
+    <string name="settings_summarize_sub">%1$s • %2$s</string>
+    <string name="settings_integration">Integration</string>
+    <string name="settings_integration_sub_on">Telegram</string>
+    <string name="settings_integration_sub_off">Telegram</string>
+    <string name="settings_backup_restore">Backup &amp; Restore</string>
+    <string name="settings_backup_restore_sub">Feeds • Lists • Saved • Read</string>
+    <string name="settings_about">About</string>
+    <string name="settings_about_sub">Version %1$s</string>
+
+    <!-- Appearance -->
+    <string name="settings_theme">Theme</string>
+    <string name="settings_theme_system_section">System</string>
+    <string name="theme_option_system">System</string>
+    <string name="theme_option_dark">Dark</string>
+    <string name="theme_option_light">Light</string>
+    <string name="theme_badge_auto_carbon">Auto Carbon</string>
+    <string name="theme_badge_dark_carbon">Dark Carbon</string>
+    <string name="theme_badge_light_carbon">Light Carbon</string>
+    <string name="settings_theme_dark_section">Dark Themes</string>
+    <string name="settings_theme_light_section">Light Themes</string>
+    <string name="settings_layout">Feed Style</string>
+
+    <!-- Feeds & Lists Management + Safe Delete Confirmation -->
+    <string name="feeds_lists_section_lists">Custom Lists</string>
+    <string name="feeds_lists_all_title">All</string>
+    <string name="feeds_lists_ungrouped_title">Ungrouped Feeds</string>
+    <string name="feeds_lists_feed_count_single">1 feed</string>
+    <string name="feeds_lists_feed_count_plural">%1$d feeds</string>
+    <string name="feeds_lists_empty_lists">No custom lists yet. Create a list to organize your feeds.</string>
+    <string name="feeds_lists_empty_feeds_in_list">No feeds inside this list yet.</string>
+    <string name="dialog_delete_list_title">Delete \"%1$s\"?</string>
+    <string name="dialog_delete_list_message">Are you sure you want to delete this list? By default, all feeds inside it are kept safely.</string>
+    <string name="dialog_delete_list_also_feeds">Also delete the feeds inside this list (%1$d)</string>
+
+    <!-- API Keys -->
+    <string name="api_key_ollama_title">Ollama</string>
+    <string name="api_key_gemini_title">Gemini</string>
+    <string name="api_key_deepl_title">DeepL</string>
+    <string name="settings_gemini_key">Gemini API Key</string>
+    <string name="settings_ollama_key">Ollama API Token</string>
+    <string name="settings_deepl_key">DeepL API Key</string>
+    <string name="action_show_key">Show key</string>
+    <string name="action_hide_key">Hide key</string>
+    <string name="action_open_key_portal">Create token online</string>
+    <string name="action_verify_key">Verify</string>
+    <string name="action_update_key">Save / Replace</string>
+    <string name="action_delete_key">Delete Key</string>
+    <string name="security_prototype_notice">Keys configured via AI Studio Secrets or local settings are stored on-device. Do not share personal API keys publicly.</string>
+
+    <!-- Translate & Languages -->
+    <string name="settings_target_lang">Language Choice</string>
+    <string name="settings_translator_choice">Translator</string>
+    <string name="translator_key_required">No API Key</string>
+    <string name="settings_custom_prompt_title">Custom Prompt</string>
+    <string name="settings_default_prompt_hint">Default prompt (enable switch to edit)</string>
+
+    <!-- Summarize & Reader -->
+    <string name="settings_opml_section">OPML Backup &amp; Custom Lists</string>
+    <string name="settings_opml_subtitle">Import or export all RSS subscriptions and custom lists as an OPML file.</string>
+    <string name="settings_ai_reader">Reader, Languages &amp; AI Models</string>
+    <string name="settings_auto_mode">On Article Open</string>
+    <string name="settings_summary_provider">Summarize</string>
+    <string name="settings_article_translator">Article Translator</string>
+    <string name="models_available_count">%1$d models</string>
+    <string name="settings_refresh_models">Refresh</string>
+    <string name="settings_title_translator">Headline Translator (Feed Cards)</string>
+
+    <!-- Integration (Telegram) -->
+    <string name="settings_telegram">Telegram Channel Integration</string>
+    <string name="settings_telegram_enable">Enable Telegram Publishing</string>
+    <string name="settings_telegram_enable_sub">Show bot token, channel ID, and reader share button</string>
+    <string name="settings_bot_token">Bot Token</string>
+    <string name="settings_channel_id">Channel ID (@channel or -100…)</string>
+    <string name="settings_test_bot">Verify Bot</string>
+
+    <!-- Backup & Restore -->
+    <string name="backup_restore_description">Select which data to include:</string>
+    <string name="backup_option_feeds">Feeds</string>
+    <string name="backup_option_lists">Lists</string>
+    <string name="backup_option_saved">Saved</string>
+    <string name="backup_option_read">Reads</string>
+    <string name="action_export_backup">Export</string>
+    <string name="action_import_backup">Import</string>
+    <string name="dialog_export_backup_title">Export</string>
+    <string name="dialog_import_backup_title">Import</string>
+    <string name="dialog_import_opml_title">Import OPML</string>
+    <string name="import_feeds_available_header">Feeds (%1$d/%2$d)</string>
+    <string name="import_select_all">Select All</string>
+    <string name="import_deselect_all">Deselect All</string>
+    <string name="import_opml_select_feeds_subtitle">Select the feeds you want to add:</string>
+    <string name="action_export_opml_secondary">Export Feeds &amp; Lists as OPML (.opml)</string>
+
+    <!-- About -->
+    <string name="about_links_header">Connect &amp; Follow</string>
+    <string name="about_youtube_label">YouTube</string>
+    <string name="about_youtube_handle">Youtube.com/@bidjadraft</string>
+    <string name="about_telegram_label">Telegram</string>
+    <string name="about_telegram_handle">T.me/Bidjadraft</string>
+    <string name="about_website_label">Website</string>
+    <string name="about_website_handle">bidjadraft.github.io</string>
+    <string name="about_version_format">Version %1$s</string>
+
+    <!-- In-App Notifications -->
+    <string name="title_notifications">Notifications</string>
+    <string name="notifications_sheet_title">Priority Feed Notifications</string>
+    <string name="notifications_empty_title">No New Notifications</string>
+    <string name="notifications_empty_subtitle">Enable notifications on your priority feeds to see their new posts collected here.</string>
+    <string name="notifications_mark_all_read">Mark All Read</string>
+    <string name="feed_action_enable_notify">Enable In-App Notifications</string>
+    <string name="feed_action_disable_notify">Disable In-App Notifications</string>
+    <string name="feed_notify_title">In-App Notifications</string>
+    <string name="feed_notify_subtitle">Show unread count in Home notification bell</string>
+
+    <!-- Regex & Text Content Filters -->
+    <string name="action_feed_filters">Feed Regex Filters</string>
+    <string name="dialog_feed_filters_title">Content &amp; Regex Filters</string>
+    <string name="dialog_feed_filters_subtitle">Remove ads, mentions, or unwanted text from all posts in this feed.</string>
+    <string name="hint_filter_pattern">Text pattern or regex (e.g. Ad:.* or @channel)</string>
+    <string name="filter_type_regex">Regex Pattern</string>
+    <string name="filter_type_exact">Exact Text</string>
+    <string name="btn_add_filter">Add Filter</string>
+    <string name="empty_feed_filters">No filters added for this feed yet.</string>
+    <string name="backup_option_filters">Filters</string>
+    <string name="filter_applied_notice">Filter added and applied to %1$d posts</string>
+
+    <!-- Prompt Direction -->
+    <string name="prompt_direction_label">Text Direction</string>
+    <string name="prompt_direction_auto">Auto</string>
+    <string name="prompt_direction_rtl">RTL (عربي)</string>
+    <string name="prompt_direction_ltr">LTR (English)</string>
+
+    <!-- Translator & Summarizer Provider Switching -->
+    <string name="dialog_select_translator_title">Choose Translation Engine</string>
+    <string name="dialog_select_summary_provider_title">Choose Summarization Engine</string>
+    <string name="switched_to_translator">Switched translator to %1$s</string>
+    <string name="switched_to_summarizer">Switched summarizer to %1$s</string>
+
+    <!-- Feed Disable / Enable -->
+    <string name="feed_action_disable_sync_menu">Disable Feed</string>
+    <string name="feed_action_enable_sync_menu">Enable Feed</string>
+    <string name="feed_status_disabled">Disabled</string>
+
+    <!-- Contextual Selection Filtering -->
+    <string name="action_filter_selection">Filter</string>
+    <string name="filter_selection_applied">Filter added to remove: %1$s</string>
+    <string name="filter_dialog_delete_only_hint">Filters strip unwanted text from all posts in this feed. Tap delete to remove any filter. To add a filter, long-press &amp; select any text in an article, then tap Filter.</string>
+
+    <!-- Bubble Popups -->
+    <string name="feed_options_bubble_subtitle">Feed Options</string>
+    <string name="list_options_bubble_subtitle">List Options</string>
+    <string name="bubble_api_key_required_hint">API Key required in Settings</string>
+
+    <!-- Feeds & Lists More Options Menu -->
+    <string name="menu_edit_feed">Edit Feed</string>
+    <string name="menu_edit_feeds">Edit Feeds</string>
+    <string name="menu_copy_feed">Copy Feed URL</string>
+    <string name="menu_delete_feed">Delete Feed</string>
+    <string name="menu_edit_list">Edit List</string>
+    <string name="menu_edit_lists">Edit Lists</string>
+    <string name="menu_delete_list">Delete List</string>
+    <string name="dialog_confirm_delete_feed_title">Delete Feed?</string>
+    <string name="dialog_confirm_delete_feed_message">Are you sure you want to delete "%1$s"? All its articles will be removed.</string>
+    <string name="search_feeds_placeholder">Search feeds…</string>
+    <string name="feeds_lists_lists_title">Lists</string>
+    <string name="feeds_lists_list_count_single">1 list</string>
+    <string name="feeds_lists_list_count_plural">%1$d lists</string>
+</resources>
